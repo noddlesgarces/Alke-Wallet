@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet - Menú Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Alke Wallet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="transactions.html">Movimientos</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="login.html">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <div class="card shadow-lg p-5 mb-4 border-0 bg-white">
+                    <h5 class="text-muted text-uppercase">Saldo Disponible</h5>
+                    <h1 class="display-2 fw-bold text-success" id="balanceDisplay">$0</h1>
+                </div>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="deposit.html" class="btn btn-primary btn-lg px-4">Depositar / Retirar</a>
+                    <a href="sendmoney.html" class="btn btn-outline-primary btn-lg px-4">Enviar Dinero</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

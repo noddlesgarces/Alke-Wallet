@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #0d6efd;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+}
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+    border-radius: 15px;
+    border: none;
+}
+.navbar {
+    margin-bottom: 2rem;
+}
+.display-2 {
+    font-weight: bold;
+}
